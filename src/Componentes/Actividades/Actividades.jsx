@@ -2,7 +2,7 @@ import "./Actividades.css";
 
 function Actividades() {
   return (
-    <div id="estancias" className="seccionActividades">
+    <div id="actividades" className="seccionActividades">
       <h1 className="tituloActividades">Actividades</h1>
       <p className="subtituloActividades">
         Descubre cómo enriquecemos la vida de nuestros residentes a través de

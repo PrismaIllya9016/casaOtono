@@ -10,6 +10,14 @@
     
 }
 
+.carousel .thumbs {
+  display: none;
+  justify-content: center;
+  margin-bottom: 300px;
+  z-index: 1007;
+  margin-right: 40px;
+}
+
 .crsl {
     width: auto;
     margin:auto;
@@ -20,9 +28,13 @@
 }
 
 .legend {
-  background-color: #6E5356 !important;
+ 
+  background-color: transparent !important;
   font-family: League Spartan !important;
-  font-size: 22px !important;
+  font-size: 1rem!important;
+  font-weight: 500;
+
+  
 }
 
 
@@ -41,8 +53,10 @@
   }
 
   @media (min-width: 481px) and (max-width: 884px) {
+  
+
     .carruselCont{
-      width: 100% 
+      width: 100% !important;
     }
   }
   
@@ -53,6 +67,11 @@
 @media (max-width: 480px) {
     .texto1 {
       font-size: 8.5vw; /* Aún más grande para pantallas muy pequeñas */
+     
+    }
+
+    .texto2 {
+      font-size: 7.5vw; /* Aún más grande para pantallas muy pequeñas */
      
     }
 

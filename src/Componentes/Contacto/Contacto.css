@@ -19,7 +19,8 @@
 }
 
 .textoCont{
-  font-size: 24px;
+  font-size: 23px;
+  
 
 }
 
@@ -120,7 +121,6 @@ font-style: normal;
 font-weight: 300;
 font-size: 22px;
 line-height: 30px;
-/* or 136% */
 display: flex;
 align-items: center;
 text-align: center;
@@ -137,3 +137,57 @@ text-align: center;
   
 }
 
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+/* Estilos para movil */
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 600px) and (max-width: 899px) {
+    /* Estilos para tablets */
+
+    .Formulario{
+      margin-top: 18%;
+    }
+
+    .formuButton {
+      margin-left: 100px;
+      
+    }
+
+    #enviarButton{
+      margin-top: 0 !important;
+    }
+    
+  
+  
+  }
+  
+  
+  @media only screen and (min-width: 900px) and (max-width: 1280px) {
+    /* Estilos para laptops */
+  
+  
+   
+   
+  }
+  
+  
+  @media only screen and (min-width: 1280px) {
+    /* Estilos para pantallas grandes */
+  
+  
+    
+  }
+  
+  @media (max-width: 1200px) {
+
+  }

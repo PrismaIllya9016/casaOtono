@@ -6,7 +6,7 @@
 }
 
 .NavbarWeb li:hover {
-    border-bottom: 3px solid #6E5356; 
+    border-bottom: 3px solid #D45F35; 
     border-radius: 5%;
    
 }
@@ -81,6 +81,24 @@ html {
  }
   
   }
+
+
+  @media only screen and (min-width: 200px) and (max-width: 899px) {
+    /* Estilos para tablets */
+   .NavbarWeb{
+    display: none !important;
+   }
+
+   .cellDiv{
+    display: flex !important;
+    height: 86px;
+   }
+
+   .logoCell{
+    display: flex !important;
+   }
+  
+  } 
 
 
 

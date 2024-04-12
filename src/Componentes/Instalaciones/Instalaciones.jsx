@@ -26,7 +26,7 @@ function Instalaciones() {
         <h2
           id="descripcionInsta"
           style={{
-            width: "80%", // Controla el ancho del texto para justificación
+            width: "50%", // Controla el ancho del texto para justificación
             textAlign: "center", // Justifica el texto
             margin: "0 auto", // Centra el bloque de texto horizontalmente
             height: "auto",

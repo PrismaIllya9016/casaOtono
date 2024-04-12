@@ -201,7 +201,12 @@ function Habitaciones() {
             />
             <Typography
               className="Incluye"
-              sx={{ marginTop: "20px", width: "900px" }}
+              sx={{
+                marginTop: "20px",
+                width: "90%",
+                textAlign: "center",
+                marginLeft: "26px",
+              }}
               variant="h6"
             >
               {texto}

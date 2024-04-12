@@ -11,6 +11,12 @@
     display:none
 }
 
+#desHab{
+    font-size: 23px;
+    width: 70%;
+    text-align: center;
+}
+
 
 
 .custom-shape-divider-bottom-1710877318 .shape-fill2 {
@@ -19,17 +25,25 @@
 @media (max-width: 480px) {
     .Menu {
       display: none !important; 
+
+    
 }
+
+.Incluye{
+  margin-left: 0% !important;      
+} 
+
+
 
 .TitulosCentradosMovile{
     display:inline;
-    font-size: 26px;
+   
     
 }
 
 .Habitaciones{
 
-    height: 150%;
+    height: 130%;
     
 }
 
@@ -86,9 +100,9 @@
     #desHab{
         max-height: 250px;
       font-family: 'League Spartan';
-      font-style: normal;
+   
       font-weight: 300;
-      font-size: 30px; /* Tamaño predeterminado */
+   
       line-height: 130%;
       text-align: "center";
       display: flex;
@@ -101,3 +115,18 @@
   
     
   }
+
+
+
+  @media only screen and (min-width: 600px) and (max-width: 899px) {
+    /* Estilos para tablets */
+    .Habitaciones{
+
+        height: 80%;
+        
+    }
+  }
+
+
+
+ 

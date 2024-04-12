@@ -34,14 +34,14 @@ function Header() {
           mayores!
         </h1>
 
-        <h3
+        <h2
           style={{ opacity: calculateOpacity(scrollPosition) }}
           className="texto2"
         >
           Ofrecemos un servicio integral y profesional, creando un modelo de
           atención que fomenta la convivencia en un ambiente familiar, ameno y
           seguro.
-        </h3>
+        </h2>
       </div>
     </div>
   );

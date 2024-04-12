@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url('public/HeaderIMG/IMAGEN DE PORTADA.webp');
+    background-image: url('public/HeaderIMG/IMAGEN DE PORTADA.webp'); /* Cambia esto por la ruta de tu imagen */
     background-size: cover;
     background-position: center;
     top: 0;
@@ -35,7 +35,8 @@
     font-family: 'League Spartan';
     font-style: normal;
     font-weight: 500;
-    font-size: 54px; 
+    /* font-size: clamp(32px,7vw,44px); */
+    font-size: 50px;
     line-height: 1.14; /* Basado en tu línea de 114% */
     display: flex;
     align-items: center;
@@ -50,39 +51,80 @@
   
 
   .texto2 {
-    position: absolute;
-    width: 80vw; /* Ajusta el ancho relativo al ancho de la ventana */
-    max-width: 920px; /* Ancho máximo */
-    height: auto; /* Altura automática para ajustar el contenido */
+   position: absolute;
+    width: 80vw; /* Ajusta según sea necesario, pero usa vw para ser responsive */
+    max-width: 1028px; /* Ancho máximo para evitar que el texto sea demasiado grande en pantallas grandes */
+    height: auto; /* Altura automática para acomodar el tamaño del texto */
     left: 50%;
     top: 65%;
-    transform: translate(-50%, -50%); /* Centrado efectivo */
-    z-index: 1001;
+    transform: translate(-50%, -50%); /* Centra el texto de manera más efectiva */
+    font-size: 34px;
     font-family: 'League Spartan';
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.8vw; /* Ajusta el tamaño de fuente relativo al ancho de la ventana */
-    line-height: 1.12; /* Ajusta la altura de línea según necesites */
+    font-weight: 100;
+    /* font-size: clamp(20px,2vw,32px); */
+    line-height: 1.14; /* Basado en tu línea de 114% */
     display: flex;
     align-items: center;
-    justify-content: center; /* Centra el contenido de manera efectiva */
+    justify-content: center; /* Asegura el centrado del texto dentro del div */
     text-align: center;
+    z-index: 1001;
     color: #FFFFFF;
   }
   
-  /* Media queries para ajustar el tamaño de fuente en dispositivos más pequeños */
-  @media (max-width: 768px) {
-    .texto2 {
-      font-size: 3rem; /* Aumenta el tamaño de fuente para mejorar la legibilidad */
-    }
-  }
-  
+
   @media (max-width: 480px) {
-    .texto2 {
-      font-size: 5.6vw; /* Aumenta aún más el tamaño de fuente para pantallas muy pequeñas */
-      top: 70%;
-    }
+.texto1{
+ 
+  top:35% !important
+}
+
+.texto2{
+  top:72% !important;
+  font-size: 1.6rem !important;
+}
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  /* Estilos para tablets */
+  .texto2{
+    top:63% !important;
+ 
   }
-  
+
+
+
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1280px) {
+  /* Estilos para laptops */
+  .texto2{
+    top:72% !important;
+
+  }
+
+ 
+ 
+}
+
+
+@media only screen and (min-width: 1280px) {
+  /* Estilos para pantallas grandes */
+
 
   
+}
+
+@media (max-width: 1200px) {
+  .texto1 {
+    font-size: calc(22px + 2vw); 
+  }
+
+  .texto2 {
+    font-size: calc(12px + 2vw); 
+  }
+}

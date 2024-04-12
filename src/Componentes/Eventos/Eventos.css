@@ -5,8 +5,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #D45F35; /* Tu color de filtro */
-  opacity: 0.85; /* Ajusta la opacidad según necesites */
+  background-color: #D45F35; 
+  opacity: 0.85; 
 }
  
 @media only screen and (min-width: 1024px) {
@@ -59,7 +59,8 @@
         height: 40vh;
         position: relative;
         background-position: center;
-        background-size: cover;
+        background-size:auto;
+        background-repeat: no-repeat;
       }
 }
  
